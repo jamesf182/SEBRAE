@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.Domain", "SEBRAE.Domain\SEBRAE.Domain.csproj", "{62E64914-12E0-4EA9-84C5-807C347EBDAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.Application", "SEBRAE.Application\SEBRAE.Application.csproj", "{2992530F-4F69-483F-8728-0B1ABB277A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.Infra.Data", "SEBRAE.Infra.Data\SEBRAE.Infra.Data.csproj", "{98A99228-4FFB-4553-A47D-0F99A0D4642F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.Infra.IoC", "SEBRAE.Infra.IoC\SEBRAE.Infra.IoC.csproj", "{E7896997-38E3-4819-A983-97A06FB98F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.Domain.Tests", "SEBRAE.Domain.Tests\SEBRAE.Domain.Tests.csproj", "{DD81828F-E733-4861-BC2C-68F7F72F3B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.API", "SEBRAE.API\SEBRAE.API.csproj", "{0E7D5DC4-F6D2-4251-845A-E0E0AEAF29F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEBRAE.WebUI", "SEBRAE.WebUI\SEBRAE.WebUI.csproj", "{575217B8-CD38-4E16-A154-D9F647582A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E64914-12E0-4EA9-84C5-807C347EBDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E64914-12E0-4EA9-84C5-807C347EBDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E64914-12E0-4EA9-84C5-807C347EBDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E64914-12E0-4EA9-84C5-807C347EBDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2992530F-4F69-483F-8728-0B1ABB277A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2992530F-4F69-483F-8728-0B1ABB277A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2992530F-4F69-483F-8728-0B1ABB277A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2992530F-4F69-483F-8728-0B1ABB277A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A99228-4FFB-4553-A47D-0F99A0D4642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A99228-4FFB-4553-A47D-0F99A0D4642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A99228-4FFB-4553-A47D-0F99A0D4642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A99228-4FFB-4553-A47D-0F99A0D4642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7896997-38E3-4819-A983-97A06FB98F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7896997-38E3-4819-A983-97A06FB98F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7896997-38E3-4819-A983-97A06FB98F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7896997-38E3-4819-A983-97A06FB98F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD81828F-E733-4861-BC2C-68F7F72F3B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD81828F-E733-4861-BC2C-68F7F72F3B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD81828F-E733-4861-BC2C-68F7F72F3B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD81828F-E733-4861-BC2C-68F7F72F3B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7D5DC4-F6D2-4251-845A-E0E0AEAF29F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7D5DC4-F6D2-4251-845A-E0E0AEAF29F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7D5DC4-F6D2-4251-845A-E0E0AEAF29F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7D5DC4-F6D2-4251-845A-E0E0AEAF29F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575217B8-CD38-4E16-A154-D9F647582A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575217B8-CD38-4E16-A154-D9F647582A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575217B8-CD38-4E16-A154-D9F647582A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575217B8-CD38-4E16-A154-D9F647582A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74ED7576-2F91-4649-B3F8-20E0A44C413A}
+	EndGlobalSection
+EndGlobal
