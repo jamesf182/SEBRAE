@@ -15,6 +15,7 @@ namespace SEBRAE.Domain.Entities
         public Conta(int id, string nome, string descricao)
         {
             DomainExceptionValidation.When(id < 0, "Id inválido.");
+            Id = id;
             ValidateDomain(nome, descricao);
         }
 

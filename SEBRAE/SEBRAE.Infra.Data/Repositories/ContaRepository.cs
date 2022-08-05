@@ -32,7 +32,7 @@ namespace SEBRAE.Infra.Data.Repositories
         }
 
         public async Task<Conta> UpdateAsync(Conta conta)
-        {
+        {                        
             _context.Update(conta);
             await _context.SaveChangesAsync();
             return conta;
